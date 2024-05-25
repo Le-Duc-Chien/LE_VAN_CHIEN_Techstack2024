@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e6eaf8;
+}
+.father {
+  width: 98%;
+  margin: auto;
+  margin-top: 20px;
+  height: 630px;
+  padding: 0px;
+  border-radius: 20px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+h1 {
+  margin-left: 50px;
+  padding-top: 50px;
+  margin-bottom: 15px;
+}
+.search-listbutton {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.button {
+  display: flex;
+  margin-right: 50px;
+}
+
+.search {
+  position: relative;
+  width: 300px;
+}
+
+.search input {
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.search input::placeholder {
+  color: #aaa;
+}
+
+.search i.fa-magnifying-glass {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #aaa;
+  font-size: 16px;
+}
+
+.search input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+}
+
+.search input:focus + i.fa-magnifying-glass {
+  color: #007bff;
+}
+.listbutton .button li {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+  line-height: 20px;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 7px;
+  transition: 0.9;
+}
+.listbutton .button li:hover {
+  background-color: #839efd;
+  color: white;
+}
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.all-content {
+  display: flex;
+  width: 330px;
+  height: 180px;
+  margin-top: 30px;
+  border-radius: 10px;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+.all-content:hover {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+  transition: all 0.3s ease-in-out;
+}
+.content {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.content img {
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+}
+.content-son {
+  margin-left: 30px;
+}
+.content-son ul {
+  display: flex;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.content-son ul li {
+  list-style: none;
+  padding: 3px;
+  border-radius: 50px;
+  border: 1px solid #839efd;
+  text-align: center;
+  color: #839efd;
+  margin-right: 5px;
+  margin-top: 10px;
+}
