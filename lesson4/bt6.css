@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+  display: flex;
+  width: 400px;
+  padding: 15px;
+  background-color: rgb(208, 143, 59);
+  justify-content: space-evenly;
+  height: 60px;
+  margin: 50px 0 0 50px;
+}
+.item {
+  background-color: aqua;
+  width: 100px;
+  padding: 10px;
+  height: 30px;
+  text-align: center;
+  line-height: 9px;
+}
+.drop {
+  position: relative;
+}
+.down {
+  position: absolute;
+  left: -15px;
+  top: 40px;
+  box-shadow: 2px 2px #888888;
+  display: none;
+}
+.down p {
+  width: 150px;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #f5e4b0;
+}
+.drop:hover .down {
+  display: block;
+}

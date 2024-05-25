@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+.bt4{
+    
+    margin: 30px auto;
+    width: 700px;
+}
+.photo img{
+    width: 690px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+.bt4 h2{
+    color: #000;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.bt4 h3{
+    color: #000;
+    margin-bottom: 20px;
+}
+.bt4 .text{
+    margin-bottom: 20px;
+    color: rgb(167, 166, 166);
+}
+.bt4 .more a{
+    background-color: #01bacf;
+    color: #fff;
+    height: 48px;
+    padding: 0 30px;
+    display: inline-block;
+    line-height: 48px;
+    text-decoration: none;
+}
+.bt4 .more a:hover{
+    background-color: chocolate;
+}

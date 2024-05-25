@@ -1,0 +1,21 @@
+.bt7{
+    background-color: #f2f3f5;
+    margin: 30px auto;
+    padding: 25px;
+    width: 650px;
+}
+li{
+    display: flex;
+   
+}
+.one,.two,.three{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed red;
+    padding-bottom: 10px;
+}
+li img{
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+    border-radius: 10px;
+}

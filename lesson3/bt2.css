@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.two{
+    text-align: center;
+    background-image: url(https://i.pinimg.com/564x/2e/4b/51/2e4b51e70bb657994fe3d514c434bf90.jpg) ;
+    width: 100%;
+    padding: 80px 0 60px;
+}
+.two h2 {
+    font-weight: normal;
+    margin-bottom: 30px;
+    color: white;
+  }
+  .two .info {
+    margin-bottom: 30px;
+    color: white;
+  }
+  .two .button a {
+    box-shadow: inset 0px 0px 0px 0px #cf866c;
+    background:  #e4553f 5%;
+    border-radius: 4px;
+    border: 1px solid #942911;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    opacity: 1;
+    padding: 16px 14px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #854629;
+    transition: 0.3s all;
+  }
+  .two .button a:hover {
+    opacity: 0.8;
+  }

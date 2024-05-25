@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .bt5 {
+    margin: 30px auto;
+    width: 340px;
+  }
+  .bt5 h2 {
+    font-size: 20px;
+    margin-bottom: 26px;
+  }
+  .bt5 ul li {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  .bt5 ul li a {
+    background-color: #0a98a7;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 4px 10px 3px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .bt5 ul li a:hover{
+    background-color: blue;
+  }
