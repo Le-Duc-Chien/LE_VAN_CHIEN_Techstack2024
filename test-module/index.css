@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  height: 50px;
+  background-color: #f5f5f5;
+  border: 1px solid #9f9f9f;
+  margin: auto;
+  margin-top: 20px;
+}
+.logo {
+  display: flex;
+  line-height: 50px;
+  margin-left: 20px;
+}
+.img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e2c912;
+  border: 1px solid #c3aa07;
+  margin-top: 4px;
+}
+.film {
+  margin-left: 20px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  width: 265px;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+.menu ul li {
+  list-style: none;
+  padding: 10px;
+  background-color: #9f9f9f;
+}
+.content {
+  display: flex;
+}
+.content-left {
+  width: 40%;
+  margin-top: 40px;
+  margin-left: 60px;
+}
+.img-content {
+  width: 100%;
+  height: 250px;
+  background-image: linear-gradient(#e4c5d6, #d77ea5);
+  text-align: center;
+  line-height: 250px;
+  border: 2px solid #c19db4;
+}
+.button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.share,
+.down {
+  padding: 10px;
+  background-color: #c19db4;
+  width: 100px;
+  border-radius: 5px;
+}
+.watch {
+  padding: 10px;
+  width: 275px;
+  background-color: #1ba1e2;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid #0a82c3;
+}
+.share {
+  background-color: #f8cecc;
+  border: 1px solid #f4c1be;
+}
+.down {
+  background-color: #e3c800;
+  border: 1px solid #a89504;
+}
+.content-right {
+  margin-top: 40px;
+  margin-left: 60px;
+}
+.right-son {
+  line-height: 38px;
+}
+.time {
+  color: #5ca216;
+}
+.star {
+  color: yellow;
+}
+.category {
+  display: flex;
+  text-align: center;
+}
+.category p {
+  width: 110px;
+  margin-right: 20px;
+  border: 1px solid black;
+  border-radius: 3px;
+  line-height: normal;
+  padding: 5px;
+}
+.infor {
+  margin-top: 40px;
+  line-height: 38px;
+}
+.infor table {
+  width: 90%;
+}
+.column1 {
+  font-weight: 600;
+}
+
+.column2 {
+  color: #5e5edf;
+}
+.describe {
+  margin-left: 60px;
+}
+.text {
+  width: 95%;
+  margin-top: 15px;
+  border: 1px solid black;
+  padding: 10px;
+}
+.performer {
+  margin-left: 60px;
+  margin-top: 30px;
+  width: 40%;
+  margin-bottom: 30px;
+}
+.performer .neo {
+  font-weight: 600;
+}
+.img-performer {
+  display: flex;
+  margin-top: 20px;
+  text-align: center;
+  justify-content: space-between;
+}
+.img-performer div img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.img-performer div p{
+    color: #5ca216;
+}
